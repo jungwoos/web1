@@ -534,7 +534,7 @@ figure {
 .tabulation {
   width: 100%;
   float: left;
-  margin-top: -7em;
+  margin-top: -10em;
   background: rgba(255, 255, 255, 0.95);
   -webkit-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: 0px 43px 83px -20px rgba(0, 0, 0, 0.41);
@@ -544,13 +544,13 @@ figure {
 }
 .tabulation label {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 14px;
+  font-size: 12px;
 }
-@media screen and (max-width: 480px) {
-  .tabulation label {
-    width: 40%;
-  }
-}
+/* @media screen and (max-width: 480px) { */
+  /* .tabulation label { */
+    /* width: 20%; */
+  /* } */
+/* } */
 .tabulation input[type="text"] {
   background: rgba(0, 0, 0, 0.05);
   border: none;
@@ -580,18 +580,18 @@ figure {
   /* Firefox 18- */
   color: rgb(61, 201, 108) !important;
 }
-@media screen and (max-width: 480px) {
-  .tabulation input[type="text"] {
-    width: 55%;
-    float: right;
-  }
-}
-@media screen and (max-width: 480px) {
-  .tabulation .cs-select {
-    width: 55%;
-    float: right;
-  }
-}
+/* @media screen and (max-width: 480px) { */
+  /* .tabulation input[type="text"] { */
+    /* width: 55%; */
+    /* float: right; */
+  /* } */
+/* } */
+/* @media screen and (max-width: 480px) { */
+  /* .tabulation .cs-select { */
+    /* width: 55%; */
+    /* float: right; */
+  /* } */
+/* } */
 
 .tab-content {
   padding: 30px;
