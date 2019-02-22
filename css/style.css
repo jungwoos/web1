@@ -376,6 +376,13 @@ figure {
   float: left;
   padding-left: 40px;
 }
+@media screen and (max-width: 455px) {
+  #fh5co-logo {
+    margin-top: 30px;
+    font-size: 22px;
+    padding-top: 5px;
+  }
+}
 #fh5co-logo i {
   position: absolute;
   top: 0;
